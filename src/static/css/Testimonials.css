@@ -1,0 +1,38 @@
+
+@media only screen and (min-width: 1080px) {
+    .container {
+        width: 1230px;
+        margin: 0 auto;
+    }
+    .testimonials-section ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .testimonials-section ul li {
+        margin: 0 1em;
+    }
+
+}
+
+.testimonials-section {
+    background: var(--primary-color);
+    color: white;
+}
+  
+.testimonials-section li {
+    background: #7EA17B;
+    text-align: center;
+    padding: 2em 1em;
+    width: 80%;
+    margin: 0 auto 5em auto;
+    border-radius: 1em;
+}
+  
+.testimonials-section li img {
+    width: 5em;
+    height: 5em;
+    border: 5px solid #7EA17B;
+    border-radius: 50%;
+    margin-top: -4.5em;
+}
