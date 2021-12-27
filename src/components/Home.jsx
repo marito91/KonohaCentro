@@ -18,6 +18,7 @@ import ss5 from '../static/img/ss5.png'
 import ss6 from '../static/img/ss6.png'
 import ss7 from '../static/img/ss7.png'
 import logo from '../static/img/logoKonoha.png'
+import japan from '../static/img/japan.svg'
 
 export default function Home() {
 
@@ -38,10 +39,15 @@ export default function Home() {
                                 </tr>
                             </thead>
                         </table>
+                        <div style={{ display: "flex", justifyContent: "center" }}>
+                            <img src={japan} style={{ width: "200px", marginTop: "30px" }} alt="Person"/>
+                        </div>
                         <h3 style={{ color: "#A79C74", textAlign: "center", marginTop: "42px" }} className="center">El espacio terapéutico es un encuentro donde nuestro ser no se siente amenazado, nos permitimos ser tocados por el ser del otro, cultivando una relación terapéutica que otorgue la posibilidad de trascender juntos en el encuentro a nuestros propios ritmos.</h3>
                     </div>
                 </div>
-                <img src={logo} className="hero-img" alt="Illustration"/>
+                <div>
+                    <img src={logo} style={{ width: "500px", marginTop: "30px" }} className="hero-img" alt="Illustration"/>
+                </div>
             </section>            
             <section style={{ backgroundColor: "#E1F3EE" }}>
             <hr class="solid"/>

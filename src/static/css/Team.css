@@ -1,0 +1,36 @@
+
+/* Here begins CSS */
+
+
+@media only screen and (min-width: 1080px) {
+    .teamcontainer {
+        width: 1230px;
+        margin: 0 auto;
+        margin-right: 350px;
+    }
+    .team-section ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        
+    }
+    .team-section ul li {
+        margin: 0 1em;
+    }
+
+}
+  
+.team-section li {
+    background: #7EA17B;
+    text-align: center;
+    padding: 1em 1em;
+    width: 100%;
+    margin: 0 auto 5em auto;
+    border-radius: 1em;
+}
+ 
+.team-section li img {
+    width: auto;
+    height: 400px;
+    border: solid #7EA17B;
+}

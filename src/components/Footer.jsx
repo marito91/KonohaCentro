@@ -26,11 +26,11 @@ export default function Footer() {
                     </a>
                 </div>
                 <ul class="list-inline">
-                    <li className="list-inline-item"><Link to="/">Inicio</Link></li>
-                    <li className="list-inline-item"><a href="#">Servicios</a></li>
-                    <li className="list-inline-item"><a href="#">Nuestro equipo</a></li>
+                    <li className="list-inline-item" style={{ color: "#7EA17B"}}><Link to="/">Inicio</Link></li>
+                    <li className="list-inline-item" style={{ color: "#7EA17B"}}><Link to="/servicios">Servicios</Link></li>
+                    <li className="list-inline-item" style={{ color: "#7EA17B"}}><Link to="/nuestro_equipo">Nuestro equipo</Link></li>
                 </ul>
-                <p className="copyright">Konoha Centro © 2021</p>
+                <p className="copyright" style={{ color: "#7EA17B"}}>Konoha Centro © 2021</p>
             </footer>
         </div>
     )
