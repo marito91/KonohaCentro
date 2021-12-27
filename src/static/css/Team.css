@@ -6,7 +6,6 @@
     .teamcontainer {
         width: 1230px;
         margin: 0 auto;
-        margin-right: 350px;
     }
     .team-section ul {
         display: -webkit-box;
@@ -31,6 +30,12 @@
  
 .team-section li img {
     width: auto;
-    height: 400px;
+    height: 350px;
     border: solid #7EA17B;
+    max-width: 100%;
+}
+
+
+.wholeteam {
+    margin: auto;
 }

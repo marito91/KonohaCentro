@@ -2,6 +2,7 @@ import React from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import '../static/css/Header.css'
 import logo from '../static/img/logoKonoha.png'
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
@@ -13,8 +14,8 @@ export default function Header() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto nav-items">
-                        <Nav.Link href="/servicios">Servicios</Nav.Link>
-                        <Nav.Link href="/nuestro_equipo">¿Quiénes somos?</Nav.Link>
+                        <Nav.Link as={Link} to="/servicios" >Servicios</Nav.Link>
+                        <Nav.Link as={Link} to="/nuestro_equipo" >¿Quiénes somos?</Nav.Link>
                         <Nav.Link href="https://api.whatsapp.com/send?phone=573043634667">Agenda tu encuentro</Nav.Link>
                         <Nav.Link href="https://drive.google.com/drive/folders/1KdAIiH_JDVmkjNrT0iQ7lb7Fmzhhengk">Tesoros y herramientas</Nav.Link>
                     </Nav>

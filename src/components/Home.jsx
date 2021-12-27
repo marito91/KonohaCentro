@@ -28,17 +28,15 @@ export default function Home() {
             <Header/>
             <section className="hero" style={{ backgroundColor: "#E1F3EE" }}>
                 <div className="container">
-                    <div className="left-col">
+                    <div className="left-col" style={{maxWidth:"100%"}}>
                         <h1 style={{ color: "#A4952F", textAlign: "center" }} className="center"><i>Acompañamiento terapéutico y de aprendizaje vivo desde el ser para todos.</i></h1>
-                        <table className="center" style={{ marginTop: "44px" }}>
-                            <thead>
-                                <tr>
-                                    <td><h3><Badge bg="success">🌱 Psicoterapia</Badge></h3></td>
-                                    <td><h3><Badge bg="success">🎨 Arteterapia</Badge></h3></td>
-                                    <td><h3><Badge bg="success">🌀 Educación</Badge></h3></td>
-                                </tr>
-                            </thead>
-                        </table>
+                        <div className="wrapper" style={{ justifyContent: "center" }}>
+                            <ul style={{ listStyleType: "none", marginTop: "44px"}}>
+                                <li><h3><Badge bg="success">🌱 Psicoterapia</Badge></h3></li>
+                                <li><h3><Badge bg="success">🎨 Arteterapia</Badge></h3></li>
+                                <li><h3><Badge bg="success">🌀 Educación</Badge></h3></li>
+                            </ul>
+                        </div>
                         <div style={{ display: "flex", justifyContent: "center" }}>
                             <img src={japan} style={{ width: "200px", marginTop: "30px" }} alt="Person"/>
                         </div>
@@ -46,7 +44,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div>
-                    <img src={logo} style={{ width: "500px", marginTop: "30px" }} className="hero-img" alt="Illustration"/>
+                    <img src={logo} style={{ width: "500px", marginTop: "30px", maxWidth: "100%" }} className="hero-img" alt="Illustration"/>
                 </div>
             </section>            
             <section style={{ backgroundColor: "#E1F3EE" }}>
